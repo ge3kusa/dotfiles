@@ -100,3 +100,4 @@ alias hosts="subl /etc/hosts"
 # Rails stuff
 alias restart="touch tmp/restart.txt" # Restart the instance of Passenger
 alias rmigc="rake db:migrate && rake db:test:clone"
+alias reload_profile='. ~/.zshrc'
