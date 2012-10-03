@@ -1,4 +1,4 @@
-# Ryan's dotfiles.
+# Aaron's dotfiles.
 
 These are my dotfiles for the zsh shell using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
@@ -54,7 +54,7 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ## Installation
 
 ```bash
-git clone https://github.com/rarneson/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/ge3kusa/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update later on, just run the sync again.
