@@ -25,10 +25,10 @@ export NLS_LANG="AMERICAN_AMERICA.UTF8"
 export ORACLE_HOME=/usr/local/oracle/instantclient_10_2
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
 export DYLD_LIBRARY_PATH
-export LD_LIBRARY_PATH=/opt/oracle/instantclient
+export LD_LIBRARY_PATH=$ORACLE_HOME
 export PATH=$PATH:$ORACLE_HOME
 
-export ORACLE_BIN=/opt/oracle/instantclient;
+export ORACLE_BIN=$ORACLE_HOME
 export PATH=$PATH:$ORACLE_BIN
 
 # SVN
