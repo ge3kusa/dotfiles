@@ -29,6 +29,7 @@ export PATH=$PATH:$ORACLE_HOME
 export SQLPATH=$ORACLE_HOME
 export ORACLE_BIN=$ORACLE_HOME
 export PATH=$PATH:$ORACLE_BIN
+export ARCHFLAGS='-arch x86_64'
 
 # SVN
 export SVN_EDITOR='vim'
