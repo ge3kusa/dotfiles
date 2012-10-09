@@ -43,3 +43,4 @@ plugins=(svn git)
 
 source $ZSH/oh-my-zsh.sh
 source ~/nvm/nvm.sh
+source ~/.rvm/scripts/rvm
