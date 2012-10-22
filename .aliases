@@ -97,6 +97,9 @@ alias vhosts="subl /etc/apache2/extra/httpd-vhosts.conf"
 alias httpd="subl /etc/apache2/httpd.conf"
 alias hosts="subl /etc/hosts"
 
+# SSH-Ubuntu-VM stuff
+alias dev="ssh ajj@192.168.56.101"
+
 # Rails stuff
 alias restart="touch tmp/restart.txt" # Restart the instance of Passenger
 alias rmigc="rake db:migrate && rake db:test:clone"
