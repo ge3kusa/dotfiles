@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
+export RUBY_GC_MALLOC_LIMIT=90000000
+export RUBY_FREE_MIN=200000
 
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.extra can be used for settings you don’t want to commit
@@ -41,6 +43,9 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(svn git)
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
 source $ZSH/oh-my-zsh.sh
-source ~/nvm/nvm.sh
-source ~/.rvm/scripts/rvm
+#source ~/nvm/nvm.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

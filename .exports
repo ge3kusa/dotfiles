@@ -22,7 +22,7 @@ export PATH=$PATH:$MYSQL_LIB
 
 # Oracle
 export NLS_LANG="AMERICAN_AMERICA.UTF8"
-export ORACLE_HOME=/usr/local/oracle/instantclient_10_2
+export ORACLE_HOME=/usr/local/oracle/instantclient_11_2
 export DYLD_LIBRARY_PATH=$ORACLE_HOME
 export LD_LIBRARY_PATH=$ORACLE_HOME
 export PATH=$PATH:$ORACLE_HOME
